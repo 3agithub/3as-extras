@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "threeey",
+	"version": "0.1.0",
+	"name": "3A's Extras",
+	"description": "More features for your Minecraft world!",
+	"authors": [
+		"3A"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC BY-NC-SA 4.0",
+	"icon": "assets/threeey/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.threeey.extras.ThreeEysExtras"
+		],
+		"fabric-datagen": [
+			"net.threeey.extras.ThreeEysExtrasDataGenerator"
+		],
+		"client": [
+			"net.threeey.extras.ThreeEysExtrasClient"
+		]
+	},
+	"mixins": [
+		"threeey.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "1.21.x",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
