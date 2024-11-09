@@ -1,4 +1,7 @@
 {
   "item.teextras.plastic": "Plastic",
-  "item.teextras.raw_plastic": "Raw Plastic"
+  "item.teextras.raw_plastic": "Raw Plastic",
+
+  "block.teextras.plastic_block": "Block of Plastic",
+  "block.teextras.raw_plastic_block": "Block of Raw Plastic"
 }
