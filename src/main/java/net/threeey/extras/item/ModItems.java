@@ -12,6 +12,9 @@ public class ModItems {
 
     public static final Item PLASTIC = registerItem("plastic", new Item(new Item.Settings()));
     public static final Item RAW_PLASTIC = registerItem("raw_plastic", new Item(new Item.Settings()));
+    public static final Item TIN_INGOT = registerItem("tin_ingot", new Item(new Item.Settings()));
+    public static final Item RAW_TIN = registerItem("raw_tin", new Item(new Item.Settings()));
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(ThreeEysExtras.MOD_ID, name), item);
@@ -19,13 +22,5 @@ public class ModItems {
 
     public static void registerModItems() {
         ThreeEysExtras.LOGGER.info("Registering mod items for Extras");
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-            entries.add(PLASTIC);
-        });
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-            entries.add(RAW_PLASTIC);
-        });
     }
 }

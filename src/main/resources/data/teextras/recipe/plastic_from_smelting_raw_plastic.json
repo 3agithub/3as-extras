@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": {
+    "item": "teextras:raw_plastic"
+  },
+  "result": {
+    "id": "teextras:plastic"
+  },
+  "experience": 0.2,
+  "cookingtime": 200
+}

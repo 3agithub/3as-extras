@@ -1,7 +1,14 @@
 {
   "item.teextras.plastic": "Plastic",
   "item.teextras.raw_plastic": "Raw Plastic",
+  "item.teextras.tin_ingot": "Tin Ingot",
+  "item.teextras.raw_tin": "Raw Tin",
 
   "block.teextras.plastic_block": "Block of Plastic",
-  "block.teextras.raw_plastic_block": "Block of Raw Plastic"
+  "block.teextras.raw_plastic_block": "Block of Raw Plastic",
+  "block.teextras.tin_block": "Block of Tin",
+  "block.teextras.raw_tin_block": "Block of Raw Tin",
+
+  "itemgroup.teextras.extras_industralization": "3A's Extras - Industrialization",
+  "itemgroup.teextras.extras_ores": "3A's Extras - Ores & Minerals"
 }

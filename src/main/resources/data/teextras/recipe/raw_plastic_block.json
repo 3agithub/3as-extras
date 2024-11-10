@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+  "pattern": [
+    "PPP",
+    "PPP",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "item": "teextras:raw_plastic"
+    }
+  },
+  "result": {
+    "id": "teextras:raw_plastic_block"
+  }
+}

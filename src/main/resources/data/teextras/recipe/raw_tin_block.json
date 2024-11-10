@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+  "pattern": [
+    "TTT",
+    "TTT",
+    "TTT"
+  ],
+  "key": {
+    "T": {
+      "item": "teextras:raw_tin"
+    }
+  },
+  "result": {
+    "id": "teextras:raw_tin_block"
+  }
+}

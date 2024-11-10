@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "teextras:raw_plastic_block"
+    }
+  ],
+  "result": {
+    "id": "teextras:raw_plastic",
+    "count": 9
+  }
+}
