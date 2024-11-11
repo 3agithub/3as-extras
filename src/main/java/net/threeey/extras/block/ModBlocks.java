@@ -2,6 +2,7 @@ package net.threeey.extras.block;
 
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.ExperienceDroppingBlock;
 import net.minecraft.block.MapColor;
 import net.minecraft.block.enums.NoteBlockInstrument;
 import net.minecraft.item.BlockItem;
@@ -10,6 +11,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.threeey.extras.ThreeEysExtras;
 
 public class ModBlocks {
@@ -30,6 +32,16 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().mapColor(MapColor.IRON_GRAY)
                     .instrument(NoteBlockInstrument.BASEDRUM)
                     .requiresTool().strength(5.0F, 6.0F).sounds(BlockSoundGroup.METAL)));
+    public static final Block TIN_ORE = registerBlock("tin_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool().strength(3.0F, 3.0F).sounds(BlockSoundGroup.STONE)));
+    public static final Block DEEPSLATE_TIN_ORE = registerBlock("deepslate_tin_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create().mapColor(MapColor.DEEPSLATE_GRAY)
+                    .instrument(NoteBlockInstrument.BASEDRUM)
+                    .requiresTool().strength(4.5F, 3.0F).sounds(BlockSoundGroup.DEEPSLATE)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItemMethod(name, block);

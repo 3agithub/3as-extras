@@ -34,6 +34,8 @@ public class ModItemGroups {
                         entries.add(ModItems.TIN_INGOT);
                         entries.add(ModBlocks.RAW_TIN_BLOCK);
                         entries.add(ModItems.RAW_TIN);
+                        entries.add(ModBlocks.TIN_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_TIN_ORE);
                     }).build());
 
     public static void registerItemGroups() {

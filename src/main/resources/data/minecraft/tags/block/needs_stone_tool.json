@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "teextras:tin_block",
+    "teextras:raw_tin_block",
+    "teextras:tin_ore",
+    "teextras:deepslate_tin_ore"
+  ]
+}
