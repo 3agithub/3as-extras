@@ -11,7 +11,7 @@
     "homepage": "https://threeey.net/",
     "sources": "https://github.com/3agithub/3as-extras/tree/1.21.1"
   },
-  "license": "CC BY-NC-SA 4.0",
+  "license": "CC BY-NC-ND 4.0",
   "icon": "assets/teextras/icon.png",
   "environment": "*",
   "entrypoints": {
